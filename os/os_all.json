@@ -175,6 +175,64 @@
             "nominal_size": 12061
         }
 ,
+        {
+            "os_name":	    "Bareboat_Full",
+            "description":  "Marine Linux for Raspberry Pi by Bareboat Necessities",
+            "release_date": "2024-10-07",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi Compute Module 5",
+                "Pi 5"
+            ],
+            "url":      "https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html",
+            "group":    "Sailing",
+            "download_size":   2922120936,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/Bareboat_Full.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/boot_bb.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Full/root_bb.tar.xz"
+            ],
+            "nominal_size": 14026
+        }
+,
+        {
+            "os_name":	    "Bareboat_Lite",
+            "description":  "Marine Linux for Raspberry Pi by Bareboat Necessities",
+            "release_date": "2024-10-07",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi Compute Module 5",
+                "Pi 5"
+            ],
+            "url":      "https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html",
+            "group":    "Sailing",
+            "download_size":   1495061348,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/Bareboat_Lite.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/boot_bb.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Bareboat_Lite/root_bb.tar.xz"
+            ],
+            "nominal_size": 8388
+        }
+,
 	{
 		"os_name": "batocera39beta",
 		"description": "Retro gaming for your Pi5",
@@ -1368,6 +1426,93 @@
         }
 ,
         {
+            "os_name":	    "OpenPlotter_Headless",
+	    "description":  "The open-source sailing platform for ARM computers",
+	    "release_date": "2024-06-19",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi Compute Module 5",
+                "Pi 5"
+            ],
+            "url":      "https://openmarine.net/openplotter/",
+            "group":    "Sailing",
+            "download_size":   1376023440,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/OpenPlotter_Headless.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/boot_op.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Headless/root_op.tar.xz"
+            ],
+            "nominal_size": 7044
+        }
+,
+        {
+            "os_name":	    "OpenPlotter_Starting",
+	    "description":  "The open-source sailing platform for ARM computers",
+	    "release_date": "2024-06-19",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi Compute Module 5",
+                "Pi 5"
+            ],
+            "url":      "https://openmarine.net/openplotter/",
+            "group":    "Sailing",
+            "download_size":   1371959568,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/OpenPlotter_Starting.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/boot_op.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Starting/root_op.tar.xz"
+            ],
+            "nominal_size": 7044
+        }
+,
+        {
+            "os_name":	    "OpenPlotter_Touchscreen",
+	    "description":  "The open-source sailing platform for ARM computers",
+	    "release_date": "2024-06-19",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi Compute Module 5",
+                "Pi 5"
+            ],
+            "url":      "https://openmarine.net/openplotter/",
+            "group":    "Sailing",
+            "download_size":   1377970368,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/OpenPlotter_Touchscreen.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/boot_op.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter_Touchscreen/root_op.tar.xz"
+            ],
+            "nominal_size": 7044
+        }
+,
+        {
             "os_name":	    "openwrt1",
             "description":  "An Open Wireless ROuter OS for RPi1",
             "release_date": "2023-05-05",
@@ -2321,15 +2466,15 @@
 ,
         {
             "os_name":	    "ubuntu2404",
-            "description":  "ubuntu2404 v24.04 desktop for RPi4/5",
-            "release_date": "2024-06-08",
+            "description":  "ubuntu2404 v24.04.1 desktop for RPi4/5",
+            "release_date": "2024-08-29",
             "supported_models": [
                 "Pi 4",
                 "Pi 5"
             ],
             "url":             "https://ubuntu/",
             "group":           "General",
-            "download_size":   2332872692,
+            "download_size":   2375364372,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2404/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2404/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2404/ubuntu2404.png",
@@ -2339,7 +2484,30 @@
                                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2404/system-boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2404/writable.tar.xz"
             ],
-            "nominal_size": 8181
+            "nominal_size": 8254
+        }
+,
+        {
+            "os_name":	    "ubuntu2410",
+            "description":  "ubuntu2410 v24.10 desktop for RPi4/5",
+            "release_date": "2024-10-10",
+            "supported_models": [
+                "Pi 4",
+                "Pi 5"
+            ],
+            "url":             "https://ubuntu/",
+            "group":           "General",
+            "download_size":   2494720200,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/ubuntu2410.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2410/writable.tar.xz"
+            ],
+            "nominal_size": 8588
         }
 ,
         {
@@ -2351,7 +2519,7 @@
             "supported_models": [
                "Pi Model",
                "Pi Compute Module",
-              "Pi Zero W Rev",
+               "Pi Zero W Rev",
                "Pi Zero Rev"
             ],
             "supports_usb_root": false,

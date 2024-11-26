@@ -3,17 +3,19 @@
         {
             "os_name":	    "raspios_arm64",
             "description":  "A 64-bit port of Debian with the Raspberry Pi desktop",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
             "supported_models": [
+                "Pi Zero 2",
                 "Pi 3",
-                "Pi Compute Module 3",
                 "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 5"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "General",
-            "download_size":   1158280692,
+            "download_size":   1193728204,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64/raspios_arm64.png",
@@ -23,25 +25,25 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64/boot64.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64/root64.tar.xz"
             ],
-            "nominal_size": 5639
+            "nominal_size": 5659
         }
-
 ,
         {
             "os_name":	    "raspios_arm64_full",
             "description":  "A 64-bit port of Debian with desktop and recommended applications",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
 	    "supported_models": [
-		"Pi Zero 2",
-		"Pi 3",
-		"Pi 4",
-		"Pi Compute Module 3",
-		"Pi Compute Module 4"
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 5"
 	    ],
             "url":             "http://www.raspbian.org/",
             "group":           "General",
-            "download_size":   3072440684,
+            "download_size":   3119714160,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_full/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_full/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_full/raspios_arm64_full.png",
@@ -51,27 +53,25 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_full/boot64.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_full/root64.tar.xz"
             ],
-            "nominal_size": 14018
+            "nominal_size": 14249
         }
-
 ,
         {
             "os_name":	    "raspios_arm64_lite",
             "description":  "A port of Debian with no desktop environment",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
             "supported_models": [
-                "Pi Model",
-                "Pi 2",
-                "Pi Zero",
+                "Pi Zero 2",
                 "Pi 3",
-                "Pi Compute Module 3",
                 "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 5"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Minimal",
-            "download_size":   421702168,
+            "download_size":   422249744,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_lite/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_lite/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_lite/raspios_arm64_lite.png",
@@ -81,27 +81,27 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_lite/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_arm64_lite/root.tar.xz"
             ],
-            "nominal_size": 2599
+            "nominal_size": 2626
         }
-
 ,
         {
             "os_name":	    "raspios_armhf",
             "description":  "A port of Debian with the Raspberry Pi Desktop",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3",
                 "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 4",
                 "Pi 5"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "General",
-            "download_size":   1210287656,
+            "download_size":   1196492392,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf/raspios_armhf.png",
@@ -111,27 +111,27 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf/root.tar.xz"
             ],
-            "nominal_size": 5164
+            "nominal_size": 5003
         }
-
 ,
         {
             "os_name":	    "raspios_armhf_full",
             "description":  "A port of Debian with the Raspberry Pi Desktop",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3",
                 "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 4",
                 "Pi 5"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "General",
-            "download_size":   2872984552,
+            "download_size":   2860841832,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_full/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_full/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_full/raspios_armhf_full.png",
@@ -141,27 +141,27 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_full/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_full/root.tar.xz"
             ],
-            "nominal_size": 11752
+            "nominal_size": 11590
         }
-
 ,
         {
             "os_name":	    "raspios_armhf_lite",
             "description":  "A port of Debian with no desktop environment",
-            "release_date": "2024-07-04",
-            "version": "Bookworm",
+            "release_date": "2024-10-28",
+            "version": "bookworm",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3",
                 "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 4",
                 "Pi 5"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Minimal",
-            "download_size":   489983208,
+            "download_size":   501925428,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_lite/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_lite/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_lite/raspios_armhf_lite.png",
@@ -171,26 +171,24 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_lite/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_armhf_lite/root.tar.xz"
             ],
-            "nominal_size": 2442
+            "nominal_size": 2466
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_arm64",
             "description":  "A 64-bit port of Debian Bullseye with the Raspberry Pi Desktop",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi 2",
-		"Pi Zero 2",
-		"Pi 3",
-		"Pi 4",
-		"Pi Compute Module 3",
-		"Pi Compute Module 4"
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   887331732,
+            "download_size":   893027288,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64/raspios_bullseye_arm64.png",
@@ -200,26 +198,24 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64/boot64.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64/root64.tar.xz"
             ],
-            "nominal_size": 4229
+            "nominal_size": 4233
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_arm64_full",
             "description":  "A 64-bit port of Debian Bullseye with desktop and recommended applications",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi 2",
-		"Pi Zero 2",
-		"Pi 3",
-		"Pi 4",
-		"Pi Compute Module 3",
-		"Pi Compute Module 4"
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   2602497428,
+            "download_size":   2616254112,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_full/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_full/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_full/raspios_bullseye_arm64_full.png",
@@ -231,24 +227,22 @@
             ],
             "nominal_size": 10955
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_arm64_lite",
             "description":  "A 64-bit port of Debian Bullseye with no desktop environment",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi 2",
-		"Pi Zero 2",
-		"Pi 3",
-		"Pi 4",
-		"Pi Compute Module 3",
-		"Pi Compute Module 4"
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   320425828,
+            "download_size":   316952984,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_lite/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_lite/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_lite/raspios_bullseye_arm64_lite.png",
@@ -258,26 +252,26 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_lite/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_arm64_lite/root.tar.xz"
             ],
-            "nominal_size": 1943
+            "nominal_size": 1947
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_armhf",
             "description":  "A port of Debian Bullseye with the Raspberry Pi Desktop",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi Model",
-		"Pi 2",
-		"Pi Zero",
-		"Pi 3",
-		"Pi Compute Module 3",
-		"Pi 4"
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 4"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   929732140,
+            "download_size":   938301196,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf/raspios_bullseye_armhf.png",
@@ -287,26 +281,26 @@
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf/boot.tar.xz",
                                "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf/root.tar.xz"
             ],
-            "nominal_size": 3966
+            "nominal_size": 3970
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_armhf_full",
             "description": "A port of Debian Bullseye with desktop and recommended applications",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi Model",
-		"Pi 2",
-		"Pi Zero",
-		"Pi 3",
-		"Pi Compute Module 3",
-		"Pi 4"
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 4"
 		],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   2673530544,
+            "download_size":   2685377912,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_full/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_full/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_full/raspios_bullseye_armhf_full.png",
@@ -318,24 +312,24 @@
             ],
             "nominal_size": 10034
         }
-
 ,
         {
             "os_name":	    "raspios_bullseye_armhf_lite",
             "description":  "A port of Debian Bullseye with no desktop environment",
-            "release_date": "2024-07-04",
+            "release_date": "2024-10-28",
             "version": "Bullseye",
             "supported_models": [
-		"Pi Model",
-		"Pi 2",
-		"Pi Zero",
-		"Pi 3",
-		"Pi Compute Module 3",
-		"Pi 4"
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 4"
             ],
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
-            "download_size":   375043744,
+            "download_size":   375015396,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_lite/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_lite/partitions.json",
             "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_bullseye_armhf_lite/raspios_bullseye_armhf_lite.png",
@@ -348,6 +342,10 @@
             "nominal_size": 1818
         }
 ,
+
+
+
+
         {
             "os_name":	    "raspios_oldstable_armhf",
             "description":  "A port of Debian Buster stable with the Raspberry Pi Desktop",
@@ -364,14 +362,14 @@
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
             "download_size":   830596804,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/raspios_oldstable_armhf.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/partition_setup.sh",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/raspios_oldstable_armhf.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/partition_setup.sh",
             "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf/root.tar.xz"
+                               "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf/root.tar.xz"
             ],
             "nominal_size": 3645
         }
@@ -392,17 +390,16 @@
             "url":             "http://www.raspbian.org/",
             "group":           "Legacy",
             "download_size":   340906636,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/raspios_oldstable_armhf_lite.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/partition_setup.sh",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/raspios_oldstable_armhf_lite.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/partition_setup.sh",
             "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os_previous/raspios_oldstable_armhf_lite/root.tar.xz"
+                               "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os_rpf/raspios_oldstable_armhf_lite/root.tar.xz"
             ],
             "nominal_size": 1859
         }
-
   ]
 }
